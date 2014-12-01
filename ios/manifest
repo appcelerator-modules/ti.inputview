@@ -2,7 +2,8 @@
 # this is your module manifest and used by Titanium
 # during compilation, packaging, distribution, etc.
 #
-version: 1.0
+version: 1.1
+architectures: armv7 i386 x86_64 arm64
 description: My module
 author: Jeff Haynie
 license: Appcelerator Commercial License
@@ -14,4 +15,4 @@ name: inputview
 moduleid: org.appcelerator.inputview
 guid: 91d02279-e05d-4ab9-bc70-1e9c2c48b65a
 platform: iphone
-minsdk: 3.2.2.GA
+minsdk: 3.4.1.RC
